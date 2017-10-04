@@ -1,0 +1,22 @@
+{
+  "name": "jest-repro",
+  "version": "1.0.0",
+  "description": "repoduce issue with Object prototype",
+  "main": "index.js",
+  "repository": "https://github.com/cowboyd/jest-repro",
+  "author": "Charles Lowell",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "funcadelic": "^0.2.3"
+  },
+  "jest": {
+    "testRegex": "(/tests/.*|\\.(test|spec))\\.(js)$"
+  }
+}
